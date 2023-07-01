@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Oswald:wght@200&family=Poppins:wght@200;400;500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contain{
+  background-color: aquamarine;
+  max-height: 1000px;
+  height: 110vh;
+  width: 100%;
+  /* background-image: linear-gradient(rgba(28, 100, 141, 0.4),rgba(0,0,0,0.5)),url(bg1.jpg); */
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    rgba(16, 79, 150, 0.2) 100%
+),linear-gradient(112deg,transparent 50%,rgba(15, 15, 15, 0.767) 50%),url(bg1.jpg);
+
+  /* background: url(bg1.jpg); */
+  /* clip-path: polygon(61% 1%, 100% 0, 100% 100%, 36% 100%); */
+  background-size: 100% 100%
+}
+
+.navbar{
+  /* padding: 30px 0; */
+  background: transparent !important;
+  height: 6rem;
+  /* border: 1px solid red; */
+  position: relative;
+  
+}
+.nav-div{
+  margin-right: 75px !important;
+
+}
+.navbar ul .nav-item{
+  font-size: 1.5rem;
+  font-weight:400;
+  padding-left: 10px ;
+  text-transform: uppercase;
+}
+.navbar ul .nav-link, .navbar .navbar-brand{
+  color: white !important;
+}
+.navbar .navbar-brand{
+  font-size: 2.5rem;
+  font-weight: 400;
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 4px;
+  left: 65px;
+}
+.navbar .navbar-brand span{
+  font-size: 16px;
+  /* border: 1px solid red; */
+  font-weight: 400;
+  position: absolute;
+  top: 50px;
+  left: 45px;
+}
+.navbar .nav-item a{
+  transition: all 0.5s ease;
+}
+.navbar .nav-item a:hover{
+  color: rgb(173, 104, 40) !important;
+  cursor: pointer;
+}
+.row{
+  /* border: 1px solid red; */
+  height: 80vh;
+  position: relative;
+}
+.scroll-btn{
+  position: absolute;
+  bottom: 0;
+  left: -135px;
+  font-size: 25px;
+}
+.scroll-btn i{
+ color: rgb(255, 251, 240); 
+ transition: all 0.2s ease;
+}
+.scroll-btn i:hover{
+  color:rgb(173, 104, 40);
+  cursor: pointer;
+
+}
+.contentmargin{
+  margin-right: 0;
+}
+#Home,#About,#Service,#Contact{
+  color: white;
+  width: 500px;
+  float: right !important;
+  /* border: 1px solid red; */
+  margin: 25px -5px;
+  position: absolute;
+  top: 0px;
+  right: 60px;
+}
+.col-6 p{
+margin: 45px 0px;
+}
+.ctn-btn{
+  height: 2.5rem;
+  width: 150px;
+  border: none;
+  transition: all 0.5s ease;
+
+  /* padding: ; */
+}
+.ctn-btn:hover{
+  background-color: rgb(173, 104, 40) !important;
+  color: beige;
+
+}
+.credit{
+  color: white;
+  float: right;
+  padding-right: 60px;
+  margin: auto;
+  font-size: 15px;
+}
+.credit p{
+  padding-bottom: -10px;
+}
+
+/* #About,#Service,#Contact{
+  display: none;
+} */
+/* 
+.col-6.abt #About{
+  display: unset;
+}
+.col-6.abt #Home{
+  display: none;
+}
+
+.col-6.ser #Service{
+  display: unset;
+}
+
+.col-6.ser #About{
+  display: none;
+}
+.col-6.con #Contact{
+  display: unset;
+}
+.col-6.con #Sevice{
+  display: none;
+} */
+
+
+
